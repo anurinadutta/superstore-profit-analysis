@@ -47,8 +47,8 @@ The model keeps each order's cost the same and reprices capped orders at list pr
 | Orders (distinct) | 5,009 | 5,009 | 5,009 |
 
 ## Screenshots
-![Executive Summary](screenshots/powerbi_executive_summary.png)
-![Discount Impact](screenshots/powerbi_discount_impact.png)
+![Executive Summary](powerbi_executive_summary.png)
+![Discount Impact](powerbi_discount_impact.png)
 
 ## Repository structure
 ```
@@ -57,7 +57,7 @@ data/        Sample_Superstore.csv
 excel/       Superstore_Analysis.xlsx
 sql/         01_setup.sql, 02_queries.sql
 powerbi/     superstore_powerbi.pbix
-screenshots/
+screenshots/ powerbi_discount_impact.png, powerbi_executive_summary.png
 ```
 
 ## How to reproduce the SQL part
